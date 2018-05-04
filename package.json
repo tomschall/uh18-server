@@ -9,6 +9,8 @@
   "author": "toadtec",
   "license": "ISC",
   "dependencies": {
+    "mongoose": "^5.0.17",
+    "mongoose-unique-validator": "^2.0.1",
     "osc": "^2.2.1",
     "socket.io": "^2.1.0"
   }
