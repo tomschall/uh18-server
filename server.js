@@ -19,7 +19,6 @@ const oscServer = require("./lib/OscServer");
 const oscConfig = require("./lib/OscConfig");
 
 new oscServer.OscServer({
-  port: 57121,
   websocketServer: new wsServer.WebsocketServer(),
   configProvider: new oscConfig.OscConfig()
 });
