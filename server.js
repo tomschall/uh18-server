@@ -17,15 +17,5 @@
 const wsServer = require("./lib/WebsocketServer");
 const oscServer = require("./lib/OscServer");
 
-/**
- * Midi Mapper
- */
-
-/**
- * Tests
- */
-
 let wsTest = new wsServer.WebsocketServer();
-console.log(wsTest);
-let oscServerTest = new oscServer.OscServer();
-console.log(oscServerTest);
+let oscServerTest = new oscServer.OscServer(57121, wsTest);
