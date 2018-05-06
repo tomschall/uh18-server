@@ -9,6 +9,7 @@
   "author": "toadtec",
   "license": "ISC",
   "dependencies": {
+    "easymidi": "^0.0.4",
     "mongoose": "^5.0.17",
     "mongoose-unique-validator": "^2.0.1",
     "osc": "^2.2.1",
